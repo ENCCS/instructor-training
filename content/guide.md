@@ -27,6 +27,33 @@ After attending this workshop, learners should:
 | 16:45 - 17:00 | Collaborative lesson development |15|
 | 17:00 | Practice: teaching and giving feedback | |
 
+## Agenda for  two-half-day workshop
+
+**Day 1**
+
+| Time | Episode | Teaching/interaction, min |
+| ---- | ------- | ------------------------- |
+| 09:00 - 09:40 | Welcome and introduction |10 +  30| 
+| 09:40 - 09:55 | ENCCS training |10 +  5| 
+| 09:55 - 10:10 | ENCCS lessons |10 +  5| 
+| 10:10 - 10:25 | Break |  |
+| 10:25 - 11:10 | Acquisition of skill |20 +  25| 
+| 11:10 - 11:20 | Break |  |
+| 11:20 - 12:00 | Lesson design |20 + 20|
+| Afternoon | [Practice backwards design](https://enccs.github.io/instructor-training/lesson-design/#practice-backwards-design) homework | 45 | 
+
+**Day 2**
+
+| Time | Episode | Teaching/interaction, min |
+| ---- | ------- | ------------------------- |
+| 09:00 - 09:15 | Recap and discussion on Practice backwards design | 15 + 0 |
+| 09:15 - 10:05 | Good interactive teaching practices |20 + 30| 
+| 10:05 - 10:20 | Break |  |
+| 10:20 - 10:40 | Teaching mechanics |10 +  10|
+| 10:40 - 11:20 | Collaborative lesson development |10 + 30|
+| 11:20 - 11:30 | Break |  |
+| 11:30 - 12:30 | Practice: teaching and giving feedback | 10 + 50 |
+
 
 ### Notes
 

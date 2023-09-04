@@ -45,13 +45,18 @@ so they do not all conform equally well to the recommendations presented in this
 - Evaluate drawbacks and advantages of unified shared memory.
 - Get acquainted with the SYCL profiling API.
 
-**[GPU Programming: Why, When and How=](https://enccs.github.io/gpu-programming/)**
+**[GPU Programming: Why, When and How](https://enccs.github.io/gpu-programming/)**
 
 - Understand why and when to use GPUs.
 - Become comfortable with key concepts in GPU programming.
 - Acquire a comprehensive overview of different software frameworks, what levels they operate at, and which to use when.
 - Learn the fundamentals in at least one framework to a level which will enable you to quickly become a productive GPU programmer.
 
+**[Developing Applications with the AMD ROCm Ecosystem](https://enccs.github.io/amd-rocm-development/)**
+ 
+- Learn how to develop and port applications to run on AMD GPU hardware on top AMD-powered supercomputers. 
+- Learn about the ROCm software development languages, libraries, and tools 
+- Get a developer’s view of the hardware that powers the system. 
 
 ### HPC
 
@@ -149,11 +154,6 @@ so they do not all conform equally well to the recommendations presented in this
 - Get an overview of best practices for efficient exploitation of HPC resources. 
 - Learn how to use the different schemes of data distribution (e.g. plane waves, pools, images) in combination with the different parallelization and acceleration schemes (MPI, OpenMP, GPU-offload) available in Quantum Espresso.
 
-**[Developing Applications with the AMD ROCm Ecosystem](https://enccs.github.io/amd-rocm-development/)**
- 
-- Learn how to develop and port applications to run on AMD GPU hardware on top AMD-powered supercomputers. 
-- Learn about the ROCm software development languages, libraries, and tools 
-- Get a developer’s view of the hardware that powers the system. 
 
 **[VASP best practices](https://enccs.github.io/vasp-best-practices/)**
 
