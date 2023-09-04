@@ -3,25 +3,7 @@
    - 5 min discussion
 ```   
 
-# ENCCS Training
-
-[ENCCS](https://enccs.se/) (EuroCC National Competence Center Sweden) is one of 33 
-nodes of the [EuroCC project](https://www.eurocc-access.eu/), which is funded by the 
-European High-Performance Computing Joint Undertaking (EuroHPC-JU). As an NCC, we act as the central point of contact for HPC and related technologies in Sweden.
-Our mission is to empower Swedish industry, academia and the public sector to leverage HPC, AI, and HPDA efficiently and effectively. 
-
-![ENCCS pillars](img/about_enccs.png)
-
-Training is one of the main pillars of ENCCS' activities. We have developed a large amount of 
-public and open source [lesson material](https://enccs.se/lessons/) and have organised, taught or contributed to over 60 
-online workshops since September 2020. 
-Our training philosophy and methods are to a large extent derived from two well established 
-educational initiatives: [CodeRefinery](https://coderefinery.org/) and [The Carpentries](https://carpentries.org/). The material presented here covers both pedagogical ideas and practical 
-aspects which underpin the development of lesson material, organisation of online or in-person 
-workshops and the teaching itself.
-
-
----
+# Training providers
 
 ## The Carpentries
 
@@ -81,6 +63,25 @@ CodeRefinery learners usually do not have a good overview of **best software pra
 > CodeRefinery learners can be qualified as **competent practitioners** because they already have an understanding of their needs.
 > *Novices* and *competent practitioners* will be more clearly defined in a {doc}`later section <learners>`.
 {: .callout}
+
+---
+
+
+[ENCCS](https://enccs.se/) (EuroCC National Competence Center Sweden) is one of 33 
+nodes of the [EuroCC project](https://www.eurocc-access.eu/), which is funded by the 
+European High-Performance Computing Joint Undertaking (EuroHPC-JU). As an NCC, we act as the central point of contact for HPC and related technologies in Sweden.
+Our mission is to empower Swedish industry, academia and the public sector to leverage HPC, AI, and HPDA efficiently and effectively. 
+
+![ENCCS pillars](img/about_enccs.png)
+
+Training is one of the main pillars of ENCCS' activities. We have developed a large amount of 
+public and open source [lesson material](https://enccs.se/lessons/) and have organised, taught or contributed to over 60 
+online workshops since September 2020. 
+Our training philosophy and methods are to a large extent derived from two well established 
+educational initiatives: [CodeRefinery](https://coderefinery.org/) and [The Carpentries](https://carpentries.org/). The material presented here covers both pedagogical ideas and practical 
+aspects which underpin the development of lesson material, organisation of online or in-person 
+workshops and the teaching itself.
+
 
 ### ENCCS audience
 

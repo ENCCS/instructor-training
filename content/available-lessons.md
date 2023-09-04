@@ -3,14 +3,16 @@
    - 5 min discussion
 ``` 
 
-# ENCCS Lessons
+# Available lessons
 
-Below is a list of current ENCCS lessons along with their intended learning outcomes. 
+Below is a list of current lessons on various HPC topics along with their intended learning outcomes. 
 These lessons are at different maturity levels and have been developed by many different people, 
-so they do not all conform equally well to the recommendations presented in this lesson!
+so they do not all conform equally well to the recommendations presented in this lesson on best practice!
 
 
-## GPU computing
+## ENCCS lessons
+
+### GPU computing
 
 **[OpenMP for GPU Offloading](https://enccs.github.io/openmp-gpu/miniapp/)**
 
@@ -51,7 +53,7 @@ so they do not all conform equally well to the recommendations presented in this
 - Learn the fundamentals in at least one framework to a level which will enable you to quickly become a productive GPU programmer.
 
 
-## HPC
+### HPC
 
 **[Intermediate MPI](https://enccs.github.io/intermediate-mpi/)**
 
@@ -60,7 +62,7 @@ so they do not all conform equally well to the recommendations presented in this
 - Understand and be able to use collective communication, blocking and non-blocking
 - Understand how to work with MPI and threads
 
-## Programming languages
+### Programming languages
 
 **[High-performance Data Analytics with Python](https://enccs.github.io/hpda-python/)**
 
@@ -96,7 +98,7 @@ so they do not all conform equally well to the recommendations presented in this
 - Be able to fit simple ML and DL models to datasets. 
 
 
-## AI
+### AI
 
 **[Upscaling AI training](https://enccs.github.io/upscaling-ai-training/)**
 
@@ -115,7 +117,7 @@ so they do not all conform equally well to the recommendations presented in this
 - Learn to use graph neural networks
 - Learn to use transformers
 
-## Applications
+### Applications
 
 **[Gromacs GPU Performance](https://enccs.github.io/gromacs-gpu-performance/)**
 
@@ -168,7 +170,7 @@ so they do not all conform equally well to the recommendations presented in this
 
 - Learn how to use OpenFOAM.
 
-## Tools
+### Tools
 
 **[CMake](https://enccs.github.io/cmake-workshop/)**
 
@@ -183,7 +185,7 @@ so they do not all conform equally well to the recommendations presented in this
 - Learn to use Docker
 - Learn to use Singularity
 
-## Quantum computing
+### Quantum computing
 
 **[Introduction to Quantum Computing and hybrid HPC-QC systems](https://enccs.github.io/nordiquest-workshop/)**
 
@@ -198,6 +200,8 @@ so they do not all conform equally well to the recommendations presented in this
 - (After the instructor gives an overview of one of the lessons) What do you think about this 
   lesson format? How does it compare to training material that you use?
 ```
+
+---
 
 ## Recommended external resources
 

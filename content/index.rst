@@ -53,14 +53,19 @@ After attending a workshop covering this material, learners should:
 
    preparation.md
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Introduction
+
+   welcome.md
+   training-providers.md
+   available-lessons.md
+   first-exercise.md
 
 .. toctree::
    :maxdepth: 1
    :caption: Core episodes
 
-   welcome.md
-   about-enccs.md
-   enccs-lessons.md
    learners.md
    lesson-design.md
    interactive-teaching.md
