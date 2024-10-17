@@ -80,13 +80,6 @@ copy-pasting it from lesson material, but learners usually strongly prefer it. T
 every single code covered in a workshop might be too much, but instructors should try to 
 manually write out as much as is reasonable to do.
 
-### Good software practices
-
-We shouldn't assume that all learners are aware of best software development 
-practices. It is therefore a good idea to adhere to good practices
-in demos and type-along sessions (e.g. by following style conventions or using version control 
-and testing in code examples), so that participants become acquainted with them as a side 
-benefit of attending a workshop.
 
 ---
 
