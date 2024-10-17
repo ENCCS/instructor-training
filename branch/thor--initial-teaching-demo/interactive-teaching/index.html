@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Good Interactive Teaching Practices &mdash; ENCCS Instructor Training</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Teaching Mechanics" href="../teaching-mechanics/" />
+    <link rel="prev" title="Lesson Design" href="../lesson-design/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            ENCCS Instructor Training
+              <img src="../_static/ENCCS.jpg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Before the workshop</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Pre-workshop Preparation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Core episodes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome/">Welcome and Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about-enccs/">ENCCS Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enccs-lessons/">ENCCS Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learners/">Acquisition of Skill</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-design/">Lesson Design</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Good Interactive Teaching Practices</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#cognitive-load">Cognitive load</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#live-demos-and-type-along-sessions">Live demos and type-along sessions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#stick-to-the-script">Stick to the script</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#copy-pasting-vs-manual-typing">Copy-pasting vs manual typing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#good-software-practices">Good software practices</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#the-importance-of-going-slow">The importance of going slow</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#expert-awareness-gap">Expert awareness gap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#taking-advantage-of-errors">Taking advantage of errors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#meta-talk">Meta-talk</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#keeping-learners-motivated">Keeping learners motivated</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#giving-feedback-for-live-coding-examples">Giving feedback for live coding examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-mechanics/">Teaching Mechanics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../collaborative-development/">Collaborative Lesson Development</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises/">Practice Teaching and Giving Feedback</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Optional episodes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../workshops-online/">Organising and Running Online Workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../quick-reference/">Quick Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">ENCCS Instructor Training</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Good Interactive Teaching Practices</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/enccs/instructor-training/blob/master/content/interactive-teaching.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>20 min teaching</p></li>
+<li><p>30 min exercises</p></li>
+</ul>
+</div>
+<section id="good-interactive-teaching-practices">
+<h1>Good Interactive Teaching Practices<a class="headerlink" href="#good-interactive-teaching-practices" title="Permalink to this heading"></a></h1>
+<div class="admonition-questions questions admonition" id="questions-0">
+<p class="admonition-title">Questions</p>
+<ul class="simple">
+<li><p>What is cognitive load and how does it affect learning?</p></li>
+<li><p>Why is motivation important?</p></li>
+</ul>
+</div>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Distinguish desirable from undesirable cognitive load.</p></li>
+</ul>
+</div>
+<section id="cognitive-load">
+<h2>Cognitive load<a class="headerlink" href="#cognitive-load" title="Permalink to this heading"></a></h2>
+<p>Memory is not the only cognitive resource that is limited. Attention is constrained as well, which
+can limit the information that enters short term memory in the first place as well as interfere with
+consolidating into long-term memory.
+While many people believe that they can “multi-task”, the reality is that
+attention can only focus on one thing at a time. Adding items that demand attention adds more things
+to alternate between, which can reduce efficiency and performance on all of them.</p>
+<p>There are different theories of cognitive load. In one of these, <a class="reference external" href="https://doi.org/10.1207/s15516709cog1202_4">Sweller posits</a> that people have to attend to three types of things when they are learning:</p>
+<ul class="simple">
+<li><p>Things they have to think about in order to <strong>perform a task</strong> (“intrinsic”).</p></li>
+<li><p>Mental effort required to <strong>connect the task</strong> to new and old information (“germane”).</p></li>
+<li><p><strong>Distractions</strong> and other mental effort not directly related to performing or learning from the task (“extraneous”).</p></li>
+</ul>
+<p>Cognitive load is not always a bad thing! There is plenty of evidence that some difficulty is
+desirable and can increase learning. However, there are limits. Managing all forms of cognitive
+load, with particular attention to extraneous load, can help prevent <strong>cognitive overload</strong> from
+impeding learning altogether.</p>
+<figure class="align-default" id="id1">
+<img alt="../_images/conceptmap-cognitive-load.png" src="../_images/conceptmap-cognitive-load.png" />
+<figcaption>
+<p><span class="caption-text">Adapted from <a class="reference external" href="https://teachtogether.tech/en/index.html">Teaching Tech Together</a>, licensed under <a class="reference external" href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a></span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<hr class="docutils" />
+<section id="live-demos-and-type-along-sessions">
+<h2>Live demos and type-along sessions<a class="headerlink" href="#live-demos-and-type-along-sessions" title="Permalink to this heading"></a></h2>
+<p>One way to manage cognitive load as tasks become more complex is by using guided practice: creating
+a structure that narrowly guides focus on specific skills and knowledge in a stepped fashion, with
+feedback at each step before transferring attention to a new feature.</p>
+<p>Worked examples, i.e. step-by-step demonstrations of how to perform particular tasks,<br />
+can <a class="reference external" href="https://en.wikipedia.org/wiki/Worked-example_effect#Faded_worked_examples">reduce cognitive load</a>
+as they provide the scaffolding needed for learners to transfer
+knowledge from working memory to long-term memory. Type-along sessions are particularly useful
+as learners get to develop their “muscle memory” while the instructor slowly walks through
+and explains each step. Splitting the task into well defined steps also helps learners
+see the underlying structure of a problem and how it can be transferred to other types of
+problems.</p>
+<p>Exercises which learners should solve by themselves can build on the type-along
+sessions but with some of the scaffolding removed so that they need to complete some
+problem steps (faded examples).</p>
+<section id="stick-to-the-script">
+<h3>Stick to the script<a class="headerlink" href="#stick-to-the-script" title="Permalink to this heading"></a></h3>
+<p>Learning can be enhanced by combining multiple information sources, for example by showing
+a piece of code (or a graphic or list of bullet points) while explaining it aloud.
+But make sure to stick to the script!
+Conflicting information splits the attention and leads to unnecessary cognitive load.</p>
+</section>
+<section id="copy-pasting-vs-manual-typing">
+<h3>Copy-pasting vs manual typing<a class="headerlink" href="#copy-pasting-vs-manual-typing" title="Permalink to this heading"></a></h3>
+<p>Manually typing out code into a programming environment takes significantly longer time than
+copy-pasting it from lesson material, but learners usually strongly prefer it. Typing out
+every single code covered in a workshop might be too much, but instructors should try to
+manually write out as much as is reasonable to do.</p>
+</section>
+<section id="good-software-practices">
+<h3>Good software practices<a class="headerlink" href="#good-software-practices" title="Permalink to this heading"></a></h3>
+<p>We shouldn’t assume that all learners are aware of best software development
+practices. It is therefore a good idea to adhere to good practices
+in demos and type-along sessions (e.g. by following style conventions or using version control
+and testing in code examples), so that participants become acquainted with them as a side
+benefit of attending a workshop.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="the-importance-of-going-slow">
+<h2>The importance of going slow<a class="headerlink" href="#the-importance-of-going-slow" title="Permalink to this heading"></a></h2>
+<p>It takes work to actively assess mental models throughout a workshop; this also takes time. This can
+make Instructors feel conflicted about using formative assessment routinely. However, the need to
+conduct routine assessment is not the only reason why a workshop should proceed more slowly than you
+think.</p>
+<section id="expert-awareness-gap">
+<h3>Expert awareness gap<a class="headerlink" href="#expert-awareness-gap" title="Permalink to this heading"></a></h3>
+<p>Because your learners’ mental models will likely be less densely connected than your own, a
+conclusion that seems obvious to you will not seem that way to your learners. It is important to
+explain what you are doing step-by-step, and how each step leads to the next one.</p>
+<p>Note that the expert awareness gap is also referred to as “expert blind spot”.</p>
+</section>
+<section id="taking-advantage-of-errors">
+<h3>Taking advantage of errors<a class="headerlink" href="#taking-advantage-of-errors" title="Permalink to this heading"></a></h3>
+<p>Experts can quickly diagnose errors which may seem cryptic to novices or competent practitioners.
+If faced with an error message while teaching, an expert will often automatically diagnose and solve
+a problem before a novice has even finished reading the error message. Because of this, it is very
+important while teaching to be explicit about the process you are using to engage with errors, even if
+they seem trivial to you, as they often will.</p>
+<p>When faced with an error message, take the time to explain what happened and how the error message
+can be understood. This will not only teach learners to understand and read stack traces, but also
+give them confidence from seeing that even an expert makes mistakes!</p>
+</section>
+<section id="meta-talk">
+<h3>Meta-talk<a class="headerlink" href="#meta-talk" title="Permalink to this heading"></a></h3>
+<p>Don’t just teach, also make sure you guide the learners through the
+course.</p>
+<ul class="simple">
+<li><p>You know what you just discussed, and what is coming next, but
+learners are often stuck thinking about what is happening right now.</p></li>
+<li><p>Give a lot of “meta-talk” that is not just about the topic you are
+teaching, but how you are teaching it.</p></li>
+<li><p>Examples</p>
+<ul>
+<li><p><strong>Why</strong> you are doing each episode</p></li>
+<li><p>What is the purpose of each exercise</p></li>
+<li><p>Clearly state what someone should accomplish in each exercise and
+how long it will take - don’t assume this is obvious.</p></li>
+<li><p>What is the point of each lesson.  How much should people expect
+to get from it?  Should you follow everything, or are some things
+advanced and optional?  Make that clear.</p></li>
+</ul>
+</li>
+</ul>
+<hr class="docutils" />
+<div class="admonition-what-are-the-top-issues-new-instructors-face-10-minutes exercise important admonition" id="exercise-0">
+<p class="admonition-title">What are the top issues new instructors face? (10 minutes)</p>
+<p>Brainstorm about what issues new teachers/instructors might face in interactive workshops.
+Write down your thoughts in the shared document.</p>
+<div class="admonition-some-suggestions solution important dropdown admonition" id="solution-0">
+<p class="admonition-title">Some suggestions</p>
+<p>Addressing participant issues:</p>
+<ul class="simple">
+<li><p>Get the speed correct: not too fast and not (far) too slow.</p></li>
+<li><p>Don’t make exercise sessions too short to “save time”. Better to have them as long as possible.</p></li>
+<li><p>Don’t expect too much of learners during exercises - just reading and understanding the task takes time.</p></li>
+<li><p>Cater to participants with different backgrounds and at different levels of experience.</p></li>
+<li><p>Learners may not have software prerequisites installed correctly and thus not able to follow along.
+Instructor mistakes:</p></li>
+<li><p>Trying to accomplish too much or go through everything - it’s OK to cut out and adapt to the audience.</p></li>
+<li><p>Explaining <em>how</em>, but not <em>why</em>.</p></li>
+<li><p>Not using good screen sharing practices (font size, terminal history, portion of screen)</p></li>
+<li><p>Assuming learners remember everything you’ve covered earlier in a workshop.</p></li>
+<li><p>Forgetting to take sufficiently many breaks (minimum 10 minutes per hour)</p></li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="keeping-learners-motivated">
+<h2>Keeping learners motivated<a class="headerlink" href="#keeping-learners-motivated" title="Permalink to this heading"></a></h2>
+<p>People learn best when they care about a topic and believe they can master it with a reasonable
+investment of time and effort. A distinction is often made between <strong>extrinsic motivation</strong>,
+which we feel when we do something to avoid punishment or earn a reward, and <strong>intrinsic motivation</strong>,
+which is what we feel when we find something personally fulfilling.</p>
+<p>According to <a class="reference external" href="https://en.wikipedia.org/wiki/Self-determination_theory">self-determination theory</a>,
+the three drivers of intrinsic motivation are:</p>
+<ul class="simple">
+<li><p><strong>Competence</strong>: the feeling that you know what you’re doing.</p></li>
+<li><p><strong>Autonomy</strong>: the feeling of being in control of your own destiny.</p></li>
+<li><p><strong>Relatedness</strong>: the feeling of being connected to others.</p></li>
+</ul>
+<p>Well-designed lessons and teaching encourage all three.</p>
+<p><strong>Belonging</strong></p>
+<ul class="simple">
+<li><p>It’s been estimated that nearly 70% of individuals will experience
+signs and symptoms of impostor syndrome at least once in their life! Research shows that
+this phenomenon is not uncommon for students who enter a new academic environment.</p></li>
+<li><p>If learners feel that they belong and are accepted in a learning environment they will
+be more motivated to learn.</p></li>
+<li><p>Having, discussing, and enforcing a Code of Conduct provides a framework for positive
+communication to occur.</p></li>
+</ul>
+<p><strong>Invite Participation</strong></p>
+<ul class="simple">
+<li><p>Encourage learners to learn from each other. Working in pairs or in groups encourages learners to
+talk through their learning process, reinforcing memory and making it more likely that confusion
+will be expressed and resolved. This can also address challenges of varying background experience:
+asking more advanced learners to help beginners can maximize learning for both. In these cases,
+make sure the beginner is doing the typing!</p></li>
+<li><p>Acknowledging when learners are confused. Acknowledging and exploring confusion with kindness
+rewards learners for sharing vulnerable information. Formative assessments can pinpoint misunderstandings. When learners see that
+others are confused, they are more likely to share their own uncertainties.</p></li>
+</ul>
+<p><strong>Any questions?</strong></p>
+<p>Instructor may accidentally dismiss learner confusion by asking for questions in a way that
+reveals that they do not actually expect that anyone will have them.
+Instead of asking “Does anyone have any questions?” and then quickly moving on,
+consider asking instead “What questions do you have?” and leaving a good pause for
+consideration. This establishes an expectation that people will, indeed, have questions, and
+should challenge themselves to formulate them.</p>
+<p><strong>Do no harm!</strong></p>
+<p>Here are a few things you should not do in your workshop:</p>
+<ul class="simple">
+<li><p>Talk contemptuously or with scorn about any tool or practice, or the people who use them.
+Regardless of its shortcomings, many of your learners may be using that tool, and may have invested many years in learning to do so.</p></li>
+<li><p>Dive into complex or detailed technical discussion with the one or two people in the audience who
+clearly don’t actually need to be there. Reserve those conversations for breaks or follow-up emails.</p></li>
+<li><p>Pretend to know more than you do. People will actually trust you more if you are frank about the
+limitations of your knowledge, and will be more likely to ask questions and seek help.</p></li>
+<li><p>Use the J word (“just”) or other demotivating words. Experts sometimes want to convey that
+a task is as easy as they think it is, but these signal to the learner that the instructor thinks
+their problem is trivial</p></li>
+<li><p>Take over the learner’s keyboard. It is rarely a good idea to type anything for your learners.
+Doing so can be demotivating for the learner (as it implies you don’t think they can do it themselves or that you don’t want to wait for them). It also wastes a valuable opportunity for your learner to develop muscle memory and other skills that are essential for independent work.</p></li>
+<li><p>Express surprise at unawareness. Saying things like “I can’t believe you don’t know X” or “You’ve
+never heard of Y?” signals to the learner that they do not have some required pre-knowledge of the
+material you are teaching, that they don’t belong at the workshop, and it may prevent them from
+asking questions in the future.</p></li>
+</ul>
+<p><strong>Does your motivation matter?</strong></p>
+<ul class="simple">
+<li><p>Learners respond to an instructor’s enthusiasm. The more motivated you are, the more motivated
+they will be!</p></li>
+<li><p>Instructors are learning to teach. This also takes motivation. Deliberative practice, seeking
+feedback, and reflecting on mistakes in the context of your own busy work life is a challenge.
+What will keep you energised to stay engaged with your learning process?</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="giving-feedback-for-live-coding-examples">
+<h2>Giving feedback for live coding examples<a class="headerlink" href="#giving-feedback-for-live-coding-examples" title="Permalink to this heading"></a></h2>
+<p>Teaching by live coding is a
+<a class="reference external" href="https://teachtogether.tech/en/index.html#s:performance">performance art which requires practice</a>.
+These exercises aim at learning to give feedback. We will watch videos of (pretend) teaching and
+give feedback on two axes: positive vs. negative and content vs. presentation.
+We will use a <a class="reference external" href="http://carpentries.github.io/instructor-training/demos_rubric/">rubric</a> (used during
+The Carpentries teaching demos) to help take notes.</p>
+<p>Each person in the class adds one point to a 2x2 grid on a whiteboard or in the shared notes
+without duplicating any points.
+For online instructor training event, use breakout room (4-5 persons per group) to facilitate discussion. Then each group reports to the shared notes.</p>
+<figure class="align-default" id="id2">
+<img alt="../_images/2x2-rubric.png" src="../_images/2x2-rubric.png" />
+<figcaption>
+<p><span class="caption-text">Adapted from <a class="reference external" href="https://teachtogether.tech/en/index.html">Teaching Tech Together</a>, licensed under <a class="reference external" href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a></span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<div class="admonition-live-coding-example-1-20-min exercise important admonition" id="exercise-1">
+<p class="admonition-title">Live coding example 1 (20 min)</p>
+<p>This exercise highlights some typical pitfalls that most instructors
+fall into sooner or later, and also shows how to avoid them.
+Watch closely since we will be giving feedback!</p>
+<ul class="simple">
+<li><p>Watch these two videos: <a class="reference external" href="https://youtu.be/bXxBeNkKmJE">video 1</a> and
+<a class="reference external" href="https://youtu.be/SkPmwe_WjeY">video 2</a></p></li>
+<li><p>What was better in video 1 and what was better in video 2?</p></li>
+<li><p>Please give feedback in the shared workshop document in the 2x2 rubric.</p></li>
+</ul>
+<div class="admonition-template-for-feedback-rubric solution important dropdown admonition" id="solution-1">
+<p class="admonition-title">Template for feedback rubric</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Positive</span> <span class="n">Content</span><span class="p">:</span>
+<span class="o">-</span> 
+<span class="o">-</span> 
+<span class="o">-</span> 
+
+<span class="n">Content</span> <span class="n">Opportunities</span> <span class="k">for</span> <span class="n">Growth</span><span class="p">:</span>
+<span class="o">-</span> 
+<span class="o">-</span> 
+<span class="o">-</span> 
+
+<span class="n">Positive</span> <span class="n">Delivery</span><span class="p">:</span>	
+<span class="o">-</span> 
+<span class="o">-</span> 
+<span class="o">-</span> 
+
+<span class="n">Delivery</span> <span class="n">Opportunities</span> <span class="k">for</span> <span class="n">Growth</span>
+<span class="o">-</span> 
+<span class="o">-</span> 
+<span class="o">-</span> 
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition-optional-live-coding-example-2 exercise important admonition" id="exercise-2">
+<p class="admonition-title">(Optional) Live coding example 2</p>
+<p>As a group, we will watch <a class="reference external" href="https://www.youtube.com/watch?v=-ApVt04rB4U">this video of teaching</a>.
+The instructor is making several mistakes, but can you also observe anything positive?</p>
+<p>As before, give feedback on two axes: positive vs. negative and content vs. presentation.
+What did other people see that you missed? What did they think that you strongly agree or disagree with?</p>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../lesson-design/" class="btn btn-neutral float-left" title="Lesson Design" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../teaching-mechanics/" class="btn btn-neutral float-right" title="Teaching Mechanics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, EuroCC National Competence Center Sweden.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
