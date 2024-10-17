@@ -80,6 +80,15 @@ copy-pasting it from lesson material, but learners usually strongly prefer it. T
 every single code covered in a workshop might be too much, but instructors should try to 
 manually write out as much as is reasonable to do.
 
+```{challenge} Types of extraneous cognitive load (5 minutes)
+
+Consider the following learning environments:
+- lectures
+- group work
+- type-along exercises
+
+Think about examples of extraneous load that might interfere with the learning experience and how you (the instructor) could avoid it. Add your thoughts to the shared document.
+```
 
 ---
 
