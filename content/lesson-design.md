@@ -340,11 +340,10 @@ Some suggestions:
 - Making papers in LaTeX
 - Making figures in your favorite programming language
 - Linux shell basics
-- Something non-technical, such as painting a room
-- Some aspect from an already existing lesson
-- [An ENCCS lesson](https://enccs.se/lessons/) (or an episode therein)
-- [Unix shell in a HPC context](https://hpc-carpentry.github.io/hpc-shell/) (or an episode therein)
+- SLURM
+- Some part of an already existing lesson
 - A lesson you always wanted to teach
+- Something non-technical, such as painting a room
 
 Exercise (30 minutes):
 - Collect notes in a shared document.
