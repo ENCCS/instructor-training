@@ -59,6 +59,24 @@ workshops.
   progressing tasks and acquisition of the new skills.
 - Finally, you write material to teach the gap between exercises.
 
+
+```{figure} img/learner_personas.png
+:width: 80%
+Image credit: ChatGPT4o
+```
+
+| | Alex the Data Scientist | Maria the CFD Engineer |
+| --- | ---- | ---- |
+| **Age** | Late-20s | Mid-30s|
+| **Occupation**| Data Scientist at an SME | CFD Engineer at a large company |
+| **Skills** | Proficient with tools like TensorFlow, <br>PyTorch, and scikit-learn. Experienced <br>with cloud services and Python, R, SQL. | Proficient with commercial CFD packages like <br>Ansys Fluent and COMSOL Multiphysics. Experienced <br>in managing complex workflows on local servers. |
+| **Experience**| 5 years in data science, focusing on <br>machine learning models and optimization. | Experienced in running simulations on local <br>clusters and analyzing 3D fluid dynamics. |
+| **Pain Point**| Limited by local computing resources <br>and cloud costs for large-scale projects. | Needs  higher spatial resolution and wants to migrate to open <br>source software to avoid prohibitively high licensing costs.|
+| **HPC Experience**| None, eager to learn how to scale <br>AI workloads using HPC. | Has experience with smaller on-prem clusters but needs to <br>transition to EuroHPC for massively parallel simulations. |
+| **Learning Style**| Prefers hands-on learning, real-world <br>examples, and collaborative environments. | Hands-on, enjoys working with complex <br>technical systems, and prefers practical challenges. |
+| **Goal**| To learn how HPC can enhance AI model <br>performance and optimize workflows. | To master running highly parallel OpenFOAM simulations <br>on EuroHPC for faster, more efficient results.|
+
+
 ### Using Bloom's Taxonomy to write effective learning objectives
 
 [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) is a framework for 
