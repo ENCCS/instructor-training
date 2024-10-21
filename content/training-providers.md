@@ -189,6 +189,109 @@ of machine learning methods.
 
 ---
 
+## CSC - IT Center for Science, Finland
+
+```{figure} img/CSC.png
+:width: 20%
+```
+
+[CSC- IT Center for Science](https://csc.fi/) is one of 33 nodes of the EuroCC project, which is funded by the European High-Performance Computing Joint Undertaking (EuroHPC-JU).
+As a National Competence Center (NCC), we act as the central point of contact for HPC and related technologies in Finland.
+Our mission is to empower Finnish industry, academia and the public sector to leverage HPC, AI, and HPDA efficiently and effectively. 
+
+CSC’s training provides assistance and advice in using competitive resources for leading edge research. Our trainings are suitable beginners as well as advanced users and are lead by our top experts variously online and onsite. CSC training activities are centered around the services offered for research and industry: Super- , cloud- and quantum computing, data storage and sharing, working with sensitive data and software as well as domain specific trainings. 
+We also provide specific training for LUMI supercomputer.
+
+CSC audience: Researchers, students and data support personnel and anyone wanting to use CSC computing and data resources more efficiently in their work.
+
+### CSC training offerings
+
+Please check the [CSC training calendar](https://csc.fi/en/trainings/training-calendar/) for information on upcoming training. Note that only a few courses currently have training materials publicly available. 
+
+**AI and Data Analytics**
+
+Courses in AI, Machine Learning and Data Analytics, covering both theory and hands-on approaches:
+- Data Analysis with R
+- High Performance R
+- Fundamentals of Machine Learning
+- Practical Deep Learning
+
+**Bioinformatics and Life Sciences**
+
+Bioinformatics and life science  needs of scientists is quite diverse and thus courses helping them deploy their tools, analyse and store data plays a crucial role in enabling  high quality bioscience research. These diverse needs  include sensitive data handling and high-throughput computing of growing volumes of biological data:
+- Containers and workflows in Bioinformatics
+- Single-cell RNA-seq data analysis using Chipster
+
+We also organise/coordinate some external events/trainings:
+- ELIXIR /BioExcel events (webinars)
+- Microbiome analysis course 
+
+**Chemistry**
+
+Courses tackling various themes of computational chemistry from the level of single atoms and molecules to large biomolecular systems such as proteins and membranes. These courses equip you with tools and methods to study chemical systems efficiently on modern supercomputers:
+- CSC Spring School on Computational Chemistry
+- Advanced GROMACS workshop
+- Schrödinger Maestro workshop
+
+**Cloud Computing**
+
+Courses that range from entry level introduction to more advanced and specific topics. Entry level courses that require no previous experience with the tools (OpenStack and OpenShift) that prepare the student to be an independent user of the platforms. The more advance courses are perfect for diving into the complexities of the tool in a easy to follow manner:
+- CSC Pouta Cloud Course
+- Container clouds fundamentals (with CSC Rahti OpenShift OKD)
+- How to run containers in Linux
+- How to make container images with CSC Rahti?
+
+**Data Management**
+
+Encompasses a wide range of training to equip individuals with the skills and best practices needed to effectively collect, store, organize, share and utilize data. Participants learn about various data management services, tools and technologies and best practices for ensuring data integrity and potentially make their data available and usable by others:
+- How to use the CSC Allas Storage Service?
+- Key steps in data and software licensing: towards reusability
+- Webinar: Services for Research 
+
+**Fundamentals**
+
+Courses covering the fundamentals of using CSC services and getting started with a topic.  These courses are meant to be a starting point for efficient use of relevant CSC services:
+- [Using CSC environment efficiently](https://csc-training.github.io/csc-env-eff/)
+- Introduction to CSC cloud services
+- Fundamentals of Machine Learning  
+
+**Geoinformatics**
+
+Geoinformatics courses are meant for researchers working with spatial data, mainly with the goal to use supercomputers for spatial analysis: 
+- [Geocomputing on the Supercomputer](https://csc-training.github.io/geocomputing_course/)
+- Geospatial data analysis with Python/R
+- Geospatial Machine Learning
+
+**High Performance Computing**
+
+Courses teaching basic and advanced topics around the use of High Performance Computing (HPC) for research. The topics range from introductory level to in-depth special trainings:
+- High Performance R
+- CSC Summer School in HPC
+- Geocomputing on the Supercomputer
+- [Using CSC environment efficiently](https://csc-training.github.io/csc-env-eff/)
+- GPU programming
+
+**LUMI**
+
+Trainings related to LUMI, one of the world's fastest supercomputers. Courses encompass a wide range of topics from how to use the LUMI programming environment to more domain-specific trainings such as running specific software efficiently on LUMI's powerful GPU and CPU resources:
+- GPU programming
+
+**Programming**
+
+Trainings related to the use of a certain programming language in our computing environment, e.g. for High Performance Computing:
+- High performance R
+- GPU programming
+- Performance Optimization
+- Julia
+
+**Quantum Computing**
+
+Our courses offer a comprehensive introduction to the cutting-edge field of quantum computing, suitable for individuals from all backgrounds. Participants will learn the core concepts of quantum computing and gain practical experience in writing quantum programs using the most popular quantum programming tools. Additionally, they will have the opportunity to work with real quantum computers available in the Finnish quantum computing ecosystem(FiQCI):
+- Introduction to Quantum Computing and FiQCI
+- Quantum Computing with PennyLane on LUMI
+
+---
+
 ## Recommended external resources
 
 The lessons above do not cover all relevant topics in HPC, HPDA and AI, but 
