@@ -16,7 +16,7 @@
 
 ## Cognitive load
 
-Memory is not the only cognitive resource that is limited. Attention is constrained as well, which 
+Memory is not the only cognitive resource that is limited. **Attention** is constrained as well, which 
 can limit the information that enters short term memory in the first place as well as interfere with 
 consolidating into long-term memory.  
 Many people believe that they can "multi-task", but the reality is that 
@@ -139,13 +139,11 @@ course.
     advanced and optional?  Make that clear.
 
 
----
-
-
 ````{challenge} What are the top issues new instructors face? (10 minutes)
-Brainstorm about what issues new teachers/instructors might face in interactive workshops.
-Answer a **poll**: which suggested common issues seem important to you?
-Do you have another, not-mentioned examples? (You may write them down in the shared document.)
+Brainstorm together (in breakout rooms of 3) about what issues new teachers/instructors might face in interactive workshops.  
+If you need inspiration or after you give your example, you may consult a list below.
+- Which of the suggested common issues seem important to you?  
+- Do you have another, not-mentioned examples? (You may write them down in the shared document.)
  
 ```{solution} Some suggestions
 
@@ -153,14 +151,16 @@ Addressing participants
  -  Get the speed correct: not too fast and not (far) too slow. 
  -  Don't make exercise sessions too short to "save time". Better to have them as long as possible.
  -  Don't expect too much of learners during exercises; just reading and understanding the task takes time.
- -  Cater to participants with different backgrounds and different levels of experience.
- -  Learners may not have software prerequisites installed correctly and thus not able to follow along.
+ -  Try to cater to participants with different backgrounds and different levels of experience.
+ -  For technical lessons, learners may not have software prerequisites installed correctly and thus not able to follow along.
 
-Instructor mistakes
+Instructor challenges
+ -  Nervousness / stage tension.
+ -  Impostor syndrome: doubting your own ability to teach the topic.
  -  Trying to accomplish too much or go through everything. It's OK to cut out and adapt to the audience! 
  -  Explaining *how*, but not *why*.
- -  Not using good screen sharing practices (font size, terminal history, portion of screen).
  -  Assuming learners remember everything you've covered earlier in a workshop.
+ -  Not using good screen sharing practices (font size, terminal history, portion of screen).
  -  Forgetting to take sufficient breaks (min. 10 minutes per hour).
 ```
 ````
@@ -193,7 +193,6 @@ Well-designed lessons and teaching encourage all three.
 - Having, discussing, and enforcing a Code of Conduct provides a framework for positive 
   communication to occur.
 
-
 **Invite Participation**
 
 - Encourage learners to learn from each other. Working in pairs or in groups encourages learners to 
@@ -213,7 +212,6 @@ Instead of asking "Does anyone have any questions?" and then quickly moving on,
 consider asking instead "What questions do you have?" and leaving a good pause for 
 consideration. This establishes an expectation that people will, indeed, have questions, and 
 should challenge themselves to formulate them.
-
 
 **Do no harm!**  
 
@@ -254,13 +252,11 @@ give feedback on two axes: positive vs. negative and content vs. presentation.
 We will use a [rubric](http://carpentries.github.io/instructor-training/demos_rubric/) (used during 
 The Carpentries teaching demos) to help take notes.
 
-Each person in the class adds one point to a 2x2 grid on a whiteboard or in the shared notes 
-without duplicating any points.
-For online instructor training event, use breakout room (4-5 persons per group) to facilitate discussion. Then each group reports to the shared notes.
 
 ```{figure} img/2x2-rubric.png
 Adapted from [Teaching Tech Together](https://teachtogether.tech/en/index.html), licensed under [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 ```
+
 
 `````{challenge} Live coding example 1 (20 min)
 This exercise highlights some typical pitfalls that most instructors
@@ -296,14 +292,40 @@ Delivery Opportunities for Growth
 ````
 `````
 
-```{challenge} (Optional) Live coding example 2
 
-As a group, we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U).
+`````{challenge} (Optional) Live coding example 2
+
+As a group (or in breakout rooms), we will watch [this video of teaching](https://www.youtube.com/watch?v=-ApVt04rB4U).
 The instructor is making several mistakes, but can you also observe anything positive?
 
-As before, give feedback on two axes: positive vs. negative and content vs. presentation. 
+As before, give feedback on two axes: positive vs. negative and content vs. presentation.
+It would be interesting for a room to arrive to a consensus, but there is room for opinions too.
 What did other people see that you missed? What did they think that you strongly agree or disagree with?
+
+
+````{solution} Template for feedback rubric
 ```
+Positive Content:
+- 
+- 
+- 
 
+Content Opportunities for Growth:
+- 
+- 
+- 
 
+Positive Delivery:	
+- 
+- 
+- 
+
+Delivery Opportunities for Growth
+- 
+- 
+- 
+```
+````
+
+`````
 
