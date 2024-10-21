@@ -33,8 +33,6 @@ As will be further discussed in the episode on [Lesson design](lesson-design.md)
 it is important to clearly define the target audience of workshops, including their 
 background knowledge and training needs.
 
----
-
 ## Cognitive development and mental models
 
 Effective learning is facilitated by the creation of a well-founded *mental model*. 
@@ -76,15 +74,19 @@ to identify how they are connected.
 Adapted from [Teaching Tech Together](https://teachtogether.tech/en/index.html), licensed under [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 ```
 
-```{challenge} Mapping a mental model (20 min)
-On a piece of paper, draw a simplified concept map of a topic that you are already teaching or 
-that you want to teach in the future. 
+```{challenge} Mapping a mental model (10+10 min)
+Using tools of your choice, draw a simplified concept map of a topic that you are already teaching or that you want to teach in the future.
+Some notes to guide you:
 - What are 3-4 core concepts involved? 
 - How are those concepts related? 
 - If you would like to try out an online tool for this exercise, visit [https://excalidraw.com](https://excalidraw.com)
+
+Afterwards, share and discuss your concept maps in a breakout room:
+- Were they straightforward to create/ structure?
+- Are they easy to understand for others on first glance?
 ```
 
-### Integrating new knowledge
+## Integrating new knowledge
 
 According to the [constructivism](https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_education)) theory in education, learners do not acquire knowledge and 
 understanding by passively perceiving it but rather by constructing new understanding and knowledge 
@@ -127,12 +129,10 @@ correct information. Broadly speaking, misconceptions fall into three categories
 - **Fundamental beliefs**. These beliefs are deeply connected
     to the learner’s social identity and are the hardest to change.
 
-
 ```{challenge} Describe a misconception (5 min)
 Describe a misconception you have encountered as a teacher or as a learner.
+Write it down in the shared workshop document.
 ```
-
----
 
 ## Expertise and teaching
 
