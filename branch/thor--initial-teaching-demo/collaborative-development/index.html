@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collaborative Lesson Development &mdash; ENCCS Instructor Training</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/overrides.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/minipres.js"></script>
+        <script src="../_static/tabs.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Practice Teaching and Giving Feedback" href="../exercises/" />
+    <link rel="prev" title="Teaching Mechanics" href="../teaching-mechanics/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            ENCCS Instructor Training
+              <img src="../_static/ENCCS.jpg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Before the workshop</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../preparation/">Pre-workshop Preparation</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Core episodes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../welcome/">Welcome and Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../about-enccs/">ENCCS Training</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../enccs-lessons/">ENCCS Lessons</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../learners/">Acquisition of Skill</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson-design/">Lesson Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interactive-teaching/">Good Interactive Teaching Practices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../teaching-mechanics/">Teaching Mechanics</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Collaborative Lesson Development</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#lesson-templates-for-static-sites">Lesson templates for static sites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contributing-to-existing-lessons">Contributing to existing lessons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collaborative-workflows">Collaborative workflows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#code-reviews">Code reviews</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#recommendations-and-lessons-learned">Recommendations and lessons learned</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../exercises/">Practice Teaching and Giving Feedback</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Optional episodes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../workshops-online/">Organising and Running Online Workshops</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../quick-reference/">Quick Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor guide</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">ENCCS Instructor Training</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Collaborative Lesson Development</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/enccs/instructor-training/blob/master/content/collaborative-development.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>15 min teaching</p></li>
+<li><p>30 min exercises</p></li>
+</ul>
+</div>
+<section id="collaborative-lesson-development">
+<h1>Collaborative Lesson Development<a class="headerlink" href="#collaborative-lesson-development" title="Permalink to this heading"></a></h1>
+<div class="admonition-questions questions admonition" id="questions-0">
+<p class="admonition-title">Questions</p>
+<ul class="simple">
+<li><p>What tools and methods can be used to collaboratively develop training material?</p></li>
+</ul>
+</div>
+<div class="admonition-objectives objectives admonition" id="objectives-0">
+<p class="admonition-title">Objectives</p>
+<ul class="simple">
+<li><p>Explain how the Sphinx lesson template works.</p></li>
+<li><p>Learn collaborative workflows for developing lessons.</p></li>
+</ul>
+</div>
+<p>This episode focuses on <strong>organisational</strong> and <strong>technical aspects</strong>
+of collaborative lesson development.</p>
+<div class="admonition-discussion discussion important admonition" id="discussion-0">
+<p class="admonition-title">Discussion</p>
+<p>This session is about <strong>collaborative</strong> lesson development. What advantages do
+you see in developing lessons collaboratively and sharing lessons (making
+material accessible)?  What difficulties are there?</p>
+</div>
+<hr class="docutils" />
+<section id="lesson-templates-for-static-sites">
+<h2>Lesson templates for static sites<a class="headerlink" href="#lesson-templates-for-static-sites" title="Permalink to this heading"></a></h2>
+<p>Why static sites?</p>
+<ul class="simple">
+<li><p>Decentralized (in terms of organization/namespace)</p></li>
+<li><p>Forkable</p></li>
+<li><p>Anybody can suggest changes</p></li>
+<li><p><a class="reference external" href="https://www.sphinx-doc.org">Sphinx</a>-based</p>
+<ul>
+<li><p>Example: this lesson</p></li>
+<li><p>Starting point: <a class="reference external" href="https://github.com/coderefinery/sphinx-lesson">sphinx-lesson</a></p></li>
+<li><p><a class="reference external" href="https://coderefinery.github.io/sphinx-lesson/">Documentation</a></p></li>
+</ul>
+</li>
+<li><p>Templates can be freely re-used</p></li>
+</ul>
+<div class="admonition-explore-a-sphinx-lesson-10-min exercise important admonition" id="exercise-0">
+<p class="admonition-title">Explore a Sphinx lesson (10 min)</p>
+<ul class="simple">
+<li><p>Open <a class="reference external" href="https://github.com/ENCCS/instructor-training">this very lesson in GitHub</a>
+(it uses the same format as typical CodeRefinery and ENCCS lessons) (you can also click
+on the “Edit on GitHub” link in the top-right corner).</p></li>
+<li><p>Browse the files and understand the general idea. Check out at least these and use HackMD to
+record their functions:</p>
+<ul>
+<li><p>.github/workflows/sphinx.yml</p></li>
+<li><p>content/conf.py</p></li>
+<li><p>content/index.rst</p></li>
+<li><p>content/lesson-development.md</p></li>
+</ul>
+</li>
+<li><p>If you want, try to make a pull request to this lesson. It doesn’t have to have any significant
+content, it can be a pure test pull request.</p></li>
+</ul>
+</div>
+<div class="admonition-create-your-own-lesson-10-min exercise important admonition" id="exercise-1">
+<p class="admonition-title">Create your own lesson (10 min)</p>
+<p>Use the <a class="reference external" href="https://github.com/ENCCS/sphinx-lesson-template">sphinx-lesson-template</a> to create a new
+lesson of your choice.</p>
+<ul class="simple">
+<li><p>Click “Use this template” and choose a name and where you want to create it. Make it Public and
+don’t select “Include all branches”</p></li>
+<li><p>After the new repository is created, wait a couple of minutes before the <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> branch
+is created by the automatic GitHub Action. Then go to “Settings” and click “Pages” from the left
+menu. There select <code class="docutils literal notranslate"><span class="pre">gh-pages</span></code> under the Branch section. Don’t change from “/ (root)”.</p></li>
+<li><p>After a few minutes, there should be a new box at the top of the “pages” page showing
+“Your site is live at https://<some-username>.github.io/<lesson-name>”. Click the link
+to see your empty lesson!</p></li>
+<li><p>If you want to try out different functionality, go to
+https://coderefinery.github.io/sphinx-lesson/ and have a look at the episodes under “Basic
+Syntax”. You can create new episodes in Markdown, RST or a Jupyter notebook and include them
+in <code class="docutils literal notranslate"><span class="pre">index.rst</span></code> under “The lesson” (make sure to use consistent indentation)</p></li>
+</ul>
+</div>
+</section>
+<hr class="docutils" />
+<section id="contributing-to-existing-lessons">
+<h2>Contributing to existing lessons<a class="headerlink" href="#contributing-to-existing-lessons" title="Permalink to this heading"></a></h2>
+<p>Our lessons are <strong>collaboratively developed</strong> and some are created by many
+people. We encourage everyone to contribute to the lessons.</p>
+<p>Lessons should be reviewed often - essentially, before each workshop by
+the instructor of that workshop.  This can be a quick review, looking
+at issues and fixing easy things, or more thorough.</p>
+<p>Every so often, there is an extensive
+hackathon period of fully revising a lesson and making major improvements.</p>
+<p>CodeRefinery has a <a class="reference external" href="https://coderefinery.github.io/manuals/lesson-review/">lesson-review</a>
+checklist to guide the review process.</p>
+</section>
+<hr class="docutils" />
+<section id="collaborative-workflows">
+<h2>Collaborative workflows<a class="headerlink" href="#collaborative-workflows" title="Permalink to this heading"></a></h2>
+<p>There are two main ways to collaborate on lesson (or code) development
+on a repository-hosting website like <a class="reference external" href="https://github.com/">GitHub</a>,
+<a class="reference external" href="https://about.gitlab.com/">GitLab</a> or <a class="reference external" href="https://bitbucket.org/">Bitbucket</a>.</p>
+<p><strong>Centralized workflow</strong></p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/centralized.png"><img alt="../_images/centralized.png" src="../_images/centralized.png" style="width: 50%;" /></a>
+</figure>
+<ul class="simple">
+<li><p>Typically all developers have both read and write permissions (double-headed arrows).</p></li>
+<li><p>Suited for cases where <strong>all developers are in the same group or organization or project</strong>.</p></li>
+<li><p><strong>Everybody who wants to contribute needs write access</strong>.</p></li>
+<li><p>Good idea to write-protect the main branch (typically master or main).</p></li>
+</ul>
+<p><strong>Forking workflow</strong></p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../_images/forking-overview.png"><img alt="../_images/forking-overview.png" src="../_images/forking-overview.png" style="width: 50%;" /></a>
+</figure>
+<p>In the <strong>forking layout</strong>, again we call one repository the “central” repository but people push to forks (their own copies of the repository on GitHub/GitLab/Bitbucket).</p>
+<ul class="simple">
+<li><p><strong>Anybody can contribute without asking for permission</strong> (to public projects).</p></li>
+<li><p>Maintainer still has <strong>full control over what is merged</strong>.</p></li>
+<li><p>There is now <strong>more than one remote</strong> to work with.</p></li>
+</ul>
+<div class="admonition-practice-collaborative-workflow-10-min exercise important admonition" id="exercise-2">
+<p class="admonition-title">Practice collaborative workflow (10 min)</p>
+<p>Here we will practice the forking workflow. <strong>NOTE</strong>: You will need a
+<a class="reference external" href="https://github.com/signup">GitHub account</a> to perform this exercise.</p>
+<div class="sphinx-tabs docutils container">
+<div aria-label="Tabbed content" class="closeable" role="tablist"><button aria-controls="panel-0-0-0" aria-selected="true" class="sphinx-tabs-tab" id="tab-0-0-0" name="0-0" role="tab" tabindex="0">Centralised workflow</button><button aria-controls="panel-0-0-1" aria-selected="false" class="sphinx-tabs-tab" id="tab-0-0-1" name="0-1" role="tab" tabindex="-1">Forking workflow</button></div><div aria-labelledby="tab-0-0-0" class="sphinx-tabs-panel" id="panel-0-0-0" name="0-0" role="tabpanel" tabindex="0"><ul class="simple">
+<li><p>The maintainer of the repository will first need to add you as contributors with write permissions.</p></li>
+<li><p>Navigate to <a class="reference external" href="https://github.com/ENCCS/example-repository">this example repository on GitHub</a>.</p></li>
+<li><p>Clone the repository to your computer by clicking the Code button
+and copy-paste the name of the remote.
+Choose SSH if you have uploaded SSH keys to GitHub, otherwise go for HTTPS.
+Then go to a terminal on your computer, and type <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">&lt;copy-pasted-remote&gt;</span></code>.<br />
+<img alt="clone-button" src="../_images/clone-button.png" /></p></li>
+<li><p>Best practice: create a new branch in your local repository: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span> <span class="pre">&lt;name/feature&gt;</span></code>
+(replace “name” with your name, and “feature” with a descriptor of your intended change).</p></li>
+<li><p>Now add a new plain-text file to the repository. You can create it with a terminal editor
+(nano, emacs, vim) or a simple text editor. In the file, add either a famous quote, a cooking
+recipe, a poem or something else that you like.</p></li>
+<li><p>After the file is created, <em>stage</em> it with <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;filename&gt;</span></code>.</p></li>
+<li><p>After staging, <em>commit</em> the file with <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&lt;some</span> <span class="pre">descriptive</span> <span class="pre">commit</span> <span class="pre">message&gt;</span></code>.</p></li>
+<li><p>Now push your commit to your fork: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">&lt;name/feature&gt;</span></code></p></li>
+<li><p>In the output of the push command you will see a URL for creating a <strong>pull request</strong>.
+Copy-paste it to a web browser.
+<img alt="git-push-output" src="../_images/git-push-output.png" /><br />
+You can also just go to the page of the example repository -
+there should be a new menu at the top inviting you to create a pull request.
+<img alt="github-pr-menu" src="../_images/github-pr-menu.png" /></p></li>
+<li><p>On the “Open a pull request” page, make sure that you are sending the pull request from
+your feature branch to the main branch
+<img alt="open-pr" src="../_images/open-pr.png" /></p></li>
+<li><p>Finally, edit the title of the pull request and add a comment (optional), and then
+click the green “Create pull request” button.</p></li>
+<li><p>You have now created a pull request and a collaborator can review your change, provide feedback
+if needed (e.g. to ask for changes), and then merge it into the main branch!</p></li>
+</ul>
+</div><div aria-labelledby="tab-0-0-1" class="sphinx-tabs-panel" hidden="true" id="panel-0-0-1" name="0-1" role="tabpanel" tabindex="0"><ul class="simple">
+<li><p>Navigate to <a class="reference external" href="https://github.com/ENCCS/example-repository">this example repository on GitHub</a></p></li>
+<li><p>Fork the repository to your own GitHub account by clicking the Fork button at the top.
+<img alt="fork-button" src="../_images/fork-button.png" /></p></li>
+<li><p>After the fork has been created, clone the repository to your computer by clicking the Code button
+and copy-paste the name of the remote.
+Choose SSH if you have uploaded SSH keys to GitHub, otherwise go for HTTPS.
+Then go to a terminal on your computer, and type <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">&lt;copy-pasted-remote&gt;</span></code>.<br />
+<img alt="clone-button" src="../_images/clone-button.png" /></p></li>
+<li><p>Best practice: create a new branch in your local repository: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span> <span class="pre">&lt;name/feature&gt;</span></code>
+(replace “name” with your name, and “feature” with a descriptor of your intended change).</p></li>
+<li><p>Now add a new plain-text file to the repository. You can create it with a terminal editor
+(nano, emacs, vim) or a simple text editor. In the file, add either a famous quote, a cooking
+recipe, a poem or something else that you like.</p></li>
+<li><p>After the file is created, <em>stage</em> it with <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">&lt;filename&gt;</span></code>.</p></li>
+<li><p>After staging, <em>commit</em> the file with <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">-m</span> <span class="pre">&lt;some</span> <span class="pre">descriptive</span> <span class="pre">commit</span> <span class="pre">message&gt;</span></code>.</p></li>
+<li><p>Now push your commit to your fork: <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">push</span> <span class="pre">origin</span> <span class="pre">&lt;name/feature&gt;</span></code></p></li>
+<li><p>In the output of the push command you will see a URL for creating a <strong>pull request</strong>.
+Copy-paste it to a web browser.
+<img alt="git-push-output" src="../_images/git-push-output.png" /><br />
+You can also just go to the page of your forked repository -
+there should be a new menu at the top inviting you to create a pull request.
+<img alt="github-pr-menu" src="../_images/github-pr-menu.png" /></p></li>
+<li><p>On the “Open a pull request” page, make sure that you are sending the pull request from
+your feature branch on your forked repository to the main branch of the parent repository
+<img alt="open-pr" src="../_images/open-pr.png" /></p></li>
+<li><p>Finally, edit the title of the pull request and add a comment (optional), and then
+click the green “Create pull request” button.</p></li>
+<li><p>You have now created a pull request and a maintainer of the central repository
+can review your change, provide feedback
+if needed (e.g. to ask for changes), and then merge it into the main branch!</p></li>
+</ul>
+<p>Bonus question: Why is it best practice to create a “feature” branch in your local repository?</p>
+</div></div>
+</div>
+</section>
+<section id="code-reviews">
+<h2>Code reviews<a class="headerlink" href="#code-reviews" title="Permalink to this heading"></a></h2>
+<div class="admonition-why-code-review callout admonition" id="callout-0">
+<p class="admonition-title">Why code review?</p>
+<p>In collaborative software development, it is standard practice to review each other’s
+code changes. This serves multiple purposes:</p>
+<ul class="simple">
+<li><p>Others in the team learn about your changes.</p></li>
+<li><p>An extra pair of eyes are useful to catch bugs or suggest improvements</p></li>
+<li><p>It’s possible (and common) to enable <em>automated testing</em> so that each pull request is tested
+automatically in the cloud so that the reviewer can see whether a pull request passes all
+unit tests.</p></li>
+</ul>
+<p>There’s no reason not to apply these practices to collaborative lesson development!</p>
+</div>
+</section>
+<hr class="docutils" />
+<section id="recommendations-and-lessons-learned">
+<h2>Recommendations and lessons learned<a class="headerlink" href="#recommendations-and-lessons-learned" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Convert feedback about lessons and suggestions for improvements into <em>issues</em>
+so that these don’t get lost.</p></li>
+<li><p>Make your lesson citable: get a DOI.</p></li>
+<li><p>Credit contributors (not only Git commits).</p></li>
+<li><p>Instructor guide is essential for new instructors.</p></li>
+<li><p>Lesson changes should be accompanied with instructor guide changes (it’s like
+a documentation for the lesson material).</p></li>
+<li><p>Apply and validate backwards lesson design again and again.</p></li>
+<li><p>Make it possible to try out new ideas (by making the lesson branch-able).</p></li>
+<li><p>Before making larger changes, talk with somebody and discuss these changes.</p></li>
+<li><p>For substantial changes we recommend to first open an issue and describe your
+idea and collect feedback before you start with an extensive rewrite.</p></li>
+<li><p>For things still under construction, open a draft pull request to collect
+feedback and to signal to others what you are working on.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../teaching-mechanics/" class="btn btn-neutral float-left" title="Teaching Mechanics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../exercises/" class="btn btn-neutral float-right" title="Practice Teaching and Giving Feedback" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, EuroCC National Competence Center Sweden.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
