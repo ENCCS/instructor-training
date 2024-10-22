@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
 project = 'ENCCS Instructor Training'
-copyright = '2022, EuroCC National Competence Center Sweden'
+copyright = '2024, EuroCC National Competence Center Sweden'
 author = 'ENCCS'
 github_user = 'enccs'
 github_repo_name = 'instructor-training'  # auto-detected from dirname if blank
