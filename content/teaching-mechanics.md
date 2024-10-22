@@ -63,6 +63,13 @@ pros and cons of online workshops perceived by the workshop participants.
 
 ## Tooling 
 
+```{callout}
+You can find more in-depth discussion on screen- and shell-sharing for teaching code-development online
+in [CodeRefinery's Train the trainer](https://coderefinery.github.io/train-the-trainer/screenshare/) workshop material
+as well as the [manual](https://coderefinery.github.io/manuals/instructor-tech-setup).
+```
+
+
 The mechanics of online (or in-person) teaching is all about the tools and visual 
 aspects of teaching. It is important to plan and prepare these technical 
 aspects before a workshop.
@@ -88,8 +95,6 @@ A good **shell share** has some of the following properties:
 - Shell history, available separately from the main shell window
 - Closely matches the type-along instructions
 
-A collection of good practices for screen sharing your shell environment can be found  
-[here](https://coderefinery.github.io/manuals/instructor-tech-setup).
 
 Simple examples:
 
@@ -231,6 +236,12 @@ Use your own past experiences, or brainstorm new methods.
 
 ## Team teaching
 
+
+```{callout}
+You can find more about concepts of co-teaching and team teaching
+in [CodeRefinery's Train the trainer](https://coderefinery.github.io/train-the-trainer/co-teaching/) workshop material.
+```
+
 Demonstration-based teaching requires two different types of focus:
 
 - Doing the mechanical steps as a demonstration;
@@ -327,7 +338,8 @@ workshop together, making the workshop feel more cohesive, inclusive, meaningful
   has a lot of tips for new instructors, but also more things about the workshop.
 - [Instructor tech setup](https://coderefinery.github.io/manuals/instructor-tech-setup/)
 - [Lesson preparation hints](https://coderefinery.github.io/manuals/presenting/) (more focused on in-person)
-- [HackMD mechanics](https://coderefinery.github.io/manuals/hackmd-mechanics/) and [HackMD helpers](https://coderefinery.github.io/manuals/hackmd-helper/)
+- [HackMD mechanics](https://coderefinery.github.io/manuals/hackmd-mechanics/)
+  and [HackMD helpers](https://coderefinery.github.io/manuals/hackmd-helper/)
 - [Team teaching](https://coderefinery.github.io/manuals/team-teaching/)
 
 
